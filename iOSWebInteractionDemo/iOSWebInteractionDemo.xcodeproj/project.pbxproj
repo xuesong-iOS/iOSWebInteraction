@@ -17,6 +17,12 @@
 		AF57F25524F9401900A95E45 /* TATWebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AF57F25024F9401900A95E45 /* TATWebViewJavascriptBridgeBase.m */; };
 		AF57F25624F9401900A95E45 /* TATWKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = AF57F25124F9401900A95E45 /* TATWKWebViewJavascriptBridge.m */; };
 		AF57F25724F9401900A95E45 /* TATWebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = AF57F25224F9401900A95E45 /* TATWebViewJavascriptBridge_JS.m */; };
+		AF5D259024FCDB9F00F663CC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5D258F24FCDB9F00F663CC /* WebViewController.m */; };
+		AF5D259B24FCDFEF00F663CC /* UIApplication+TATBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5D259624FCDFEF00F663CC /* UIApplication+TATBase.m */; };
+		AF5D259C24FCDFEF00F663CC /* TATCoreDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5D259924FCDFEF00F663CC /* TATCoreDevice.m */; };
+		AF5D25A024FCE52400F663CC /* tat_navigation_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5D259E24FCE52400F663CC /* tat_navigation_back@2x.png */; };
+		AF5D25A124FCE52400F663CC /* tat_navigation_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5D259F24FCE52400F663CC /* tat_navigation_back@3x.png */; };
+		AF5D25A324FD00B000F663CC /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AF5D25A224FD00AF00F663CC /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,16 @@
 		AF57F25224F9401900A95E45 /* TATWebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATWebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
 		AF57F25324F9401900A95E45 /* TATWKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATWKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		AF57F25424F9401900A95E45 /* TATWebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATWebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		AF5D258E24FCDB9F00F663CC /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AF5D258F24FCDB9F00F663CC /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		AF5D259624FCDFEF00F663CC /* UIApplication+TATBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TATBase.m"; sourceTree = "<group>"; };
+		AF5D259724FCDFEF00F663CC /* TATCoreDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATCoreDevice.h; sourceTree = "<group>"; };
+		AF5D259824FCDFEF00F663CC /* TATCoreMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATCoreMacro.h; sourceTree = "<group>"; };
+		AF5D259924FCDFEF00F663CC /* TATCoreDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATCoreDevice.m; sourceTree = "<group>"; };
+		AF5D259A24FCDFEF00F663CC /* UIApplication+TATBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TATBase.h"; sourceTree = "<group>"; };
+		AF5D259E24FCE52400F663CC /* tat_navigation_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tat_navigation_back@2x.png"; sourceTree = "<group>"; };
+		AF5D259F24FCE52400F663CC /* tat_navigation_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tat_navigation_back@3x.png"; sourceTree = "<group>"; };
+		AF5D25A224FD00AF00F663CC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +86,8 @@
 		AF57F23424F93FC300A95E45 /* iOSWebInteractionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AF5D259D24FCE52400F663CC /* Resource */,
+				AF5D259524FCDFEF00F663CC /* Utility */,
 				AF57F24E24F9401900A95E45 /* WebViewJavascriptBridge */,
 				AF57F23524F93FC300A95E45 /* AppDelegate.h */,
 				AF57F23624F93FC300A95E45 /* AppDelegate.m */,
@@ -82,6 +100,8 @@
 				AF57F24324F93FC800A95E45 /* LaunchScreen.storyboard */,
 				AF57F24624F93FC800A95E45 /* Info.plist */,
 				AF57F24724F93FC800A95E45 /* main.m */,
+				AF5D258E24FCDB9F00F663CC /* WebViewController.h */,
+				AF5D258F24FCDB9F00F663CC /* WebViewController.m */,
 			);
 			path = iOSWebInteractionDemo;
 			sourceTree = "<group>";
@@ -97,6 +117,28 @@
 				AF57F25424F9401900A95E45 /* TATWebViewJavascriptBridgeBase.h */,
 			);
 			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		AF5D259524FCDFEF00F663CC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AF5D259624FCDFEF00F663CC /* UIApplication+TATBase.m */,
+				AF5D259724FCDFEF00F663CC /* TATCoreDevice.h */,
+				AF5D259824FCDFEF00F663CC /* TATCoreMacro.h */,
+				AF5D259924FCDFEF00F663CC /* TATCoreDevice.m */,
+				AF5D259A24FCDFEF00F663CC /* UIApplication+TATBase.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AF5D259D24FCE52400F663CC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AF5D25A224FD00AF00F663CC /* index.html */,
+				AF5D259E24FCE52400F663CC /* tat_navigation_back@2x.png */,
+				AF5D259F24FCE52400F663CC /* tat_navigation_back@3x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +198,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5D25A124FCE52400F663CC /* tat_navigation_back@3x.png in Resources */,
 				AF57F24524F93FC800A95E45 /* LaunchScreen.storyboard in Resources */,
 				AF57F24224F93FC800A95E45 /* Assets.xcassets in Resources */,
+				AF5D25A324FD00B000F663CC /* index.html in Resources */,
 				AF57F24024F93FC300A95E45 /* Main.storyboard in Resources */,
+				AF5D25A024FCE52400F663CC /* tat_navigation_back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,10 +214,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5D259B24FCDFEF00F663CC /* UIApplication+TATBase.m in Sources */,
 				AF57F23D24F93FC300A95E45 /* ViewController.m in Sources */,
 				AF57F25624F9401900A95E45 /* TATWKWebViewJavascriptBridge.m in Sources */,
 				AF57F23724F93FC300A95E45 /* AppDelegate.m in Sources */,
+				AF5D259024FCDB9F00F663CC /* WebViewController.m in Sources */,
 				AF57F24824F93FC800A95E45 /* main.m in Sources */,
+				AF5D259C24FCDFEF00F663CC /* TATCoreDevice.m in Sources */,
 				AF57F23A24F93FC300A95E45 /* SceneDelegate.m in Sources */,
 				AF57F25724F9401900A95E45 /* TATWebViewJavascriptBridge_JS.m in Sources */,
 				AF57F25524F9401900A95E45 /* TATWebViewJavascriptBridgeBase.m in Sources */,
